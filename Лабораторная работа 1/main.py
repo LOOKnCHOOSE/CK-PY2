@@ -35,39 +35,39 @@ class Rock:
         ...
 
 
-class Cat:
+class Hamster:
     def __init__(self, name: str, color: str):
         """
         Создание и подготовка к работе объекта "Хомяк"
         :param name: Имя хомяка
         :param age: Возраст Хомяка
         Примеры:
-        >>> pip = Cat("Pip", "Black")  # инициализация экземпляра класса
+        >>> pip = Hamster("Pip", "Black")  # инициализация экземпляра класса
         """
         if not isinstance(name, str):
-            raise TypeError("Имя кота может быть только строкой")
+            raise TypeError("Имя хомяка может быть только строкой")
         self.name = name
 
         if not isinstance(color, str):
-            raise TypeError("Цвет кота может быть только строкой")
+            raise TypeError("Цвет хомяка может быть только строкой")
         self.color = color
 
     def feed(self) -> str:
         """
-        Покормить Кота
+        Покормить Хомяка
         :return: "self.name" кушает. Повторите эту команду через час
         Примеры:
-        >>> pip = Cat("Pip", "Black")
+        >>> pip = Hamster("Pip", "Black")
         >>> pip.feed()
         """
         ...
 
     def wakeup(self) -> str:
         """
-        Разбудить кота
+        Разбудить Хомяка
         :return: "self.name" недоволен
         Примеры:
-        >>> pip = Cat("Pip", "Black")
+        >>> pip = Hamster("Pip", "Black")
         >>> pip.wakeup()
         """
         ...
