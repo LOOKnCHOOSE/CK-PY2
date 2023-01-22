@@ -39,8 +39,8 @@ class Hamster:
     def __init__(self, name: str, color: str):
         """
         Создание и подготовка к работе объекта "Хомяк"
-        :param name: Имя хомяка
-        :param age: Возраст Хомяка
+        :param name: Имя Хомяка
+        :param color: Цвет Хомяка
         Примеры:
         >>> pip = Hamster("Pip", "Black")  # инициализация экземпляра класса
         """
