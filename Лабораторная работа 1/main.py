@@ -97,9 +97,9 @@ class Cup:
 
     def add_water(self, water: int) -> None:
         """
-        Добавление воды в рюкзак.
+        Добавление воды в чашку.
         :param water: Объем добавляемой воды
-        :raise ValueError: Если количество добавляемых сендвичей больше объема рюкзака
+        :raise ValueError: Если количество добавляемой волды больше объема чашки
         Примеры:
         >>> teacup = Cup(5, 0)
         >>> teacup.add_water(3)
